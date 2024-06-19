@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.Flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AL-item {
+  align-items: center;
+}
+.JS-center {
+  justify-content: center;
+}
+.input {
+  outline: none;
+}
+/* Login classes */
+
+.Container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(96, 96, 190);
+}
+
+.Login-box {
+  min-width: 29%;
+  min-height: 80vh;
+  background-color: aliceblue;
+  border-radius: 2%;
+}
+.Login-input-box {
+  padding: 1rem;
+  flex-direction: column;
+  gap: 2rem;
+  
+  padding: 2rem;
+}
+.Input-style {
+  
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(230, 231, 234);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(30, 122, 168);
+}
+.Tagline {
+  text-align: center;
+
+  width: 100%;
+  padding: 2.5rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.Login-button-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  width: 100%;
+  background-color: rgb(80, 127, 214);
+  padding: 1rem;
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  
+}
+.btn:hover{
+  cursor: pointer;
+}
+
+.Flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Facebook-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(49, 78, 131);
+  padding: 1rem;
+  color: aliceblue;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  gap: 1rem;
+  text-align: center;
+}
+.Facebook-btn:hover{
+  cursor: pointer;
+}
+.facebook-text {
+  width: 100%;
+}
+.Google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  color: rgb(117, 118, 119);
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+  gap: 1rem;
+  text-align: center;
+}
+.Google-btn:hover{
+  cursor: pointer;
+}
+.hide-show-btn{
+  outline: none;
+  border: none;
+  padding: 1rem;
+}
+.grid-columns{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 1rem;
+}
+.full-width-input{
+  grid-column: 1/span 1;
+}
+.starched-ele{
+  grid-column: 1/span 2;
+}
