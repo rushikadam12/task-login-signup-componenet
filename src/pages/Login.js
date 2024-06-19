@@ -55,7 +55,7 @@ function Login() {
             </div>
 
             <button className="btn" type="submit">
-              Login
+              Logined
             </button>
             <span>
               Don't have an account?<a href="/signup">Sign up</a>
